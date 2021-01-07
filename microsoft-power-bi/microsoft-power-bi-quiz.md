@@ -62,8 +62,8 @@ Q7. You need to add a required color to a bar chart. How can you add an exact co
 Q8. The Excel function IF is nearly the same as which DAX function?
 
     [ ] SWITCH
-    [ ] IF
-    [x] IFX
+    [x] IF
+    [ ] IFX
     [ ] IFS
 
 Q9. Consider the Power Bl extract, transform, and load process (ETL). During this process, data is read and then
@@ -101,7 +101,7 @@ Q12. After you enter text in the Q&A box or O&A visual, Power Bl will \_ your da
 
     [ ] filter and group
     [ ] sort and filter
-    [ ] sort, filter, and group
+    [x] sort, filter, and group
     [ ] sort and group
 
 Q13. You just deleted a dashboard in the Power Bl service and want to get it back. What should you do?
@@ -115,7 +115,7 @@ Q14. You have a sales data source and want to relate the tables. The table that 
 
     [ ] dimension; fact
     [ ] lookup; data
-    [ ] data; lookup
+    [x] data; lookup
     [ ] data; supporting
 
 Q15. When you are creating a formula in the Power Query Editor, what does IntelliSense provide a list of? (Select all that apply.)
@@ -133,7 +133,7 @@ Q15. When you are creating a formula in the Power Query Editor, what does Intell
 Q16. You want to delete a dataset but the Power Bl service will not let you. What is the most likely cause?
 
     [ ] A tile on your dashboard contains data from that dataset.
-    [ ] The dataset is already being used in a published app.
+    [x] The dataset is already being used in a published app.
     [ ] A report contains data from that dataset.
     [ ] The dataset is in your workspace.
 
@@ -187,7 +187,7 @@ Q23. You have a report in Power Bl service and want to save the state of a repor
     [ ] slicers
 
 Q24. What daily sales number does this DAX measure formula calculate?
-CALCULATE(SUM([Sales]) ,DATESHTD([Date] ))
+CALCULATE(SUM([Sales]) ,DATESMTD([Date] ))
 
     [ ] running total sales in each month that starts over each month
     [ ] total sales for the entire month
