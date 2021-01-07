@@ -24,8 +24,8 @@ Q2. How do you create a chart visual in Power Bl Desktop Report view? (Select al
     [ ] B orC
     [x] A or B
 
-Q3. What daily sales number does this DAX measure formula calculate? CALCULATE(SUM([Sales]) ,DATESHTD([Date] ))
-
+Q3. What daily sales number does this DAX measure formula calculate? CALCULATE(SUM([Sales]) ,DATESYTD([Date] ))    --- DATESHTD() is not a function in PowerBI
+  
     [ ] running total sales in each month that starts over each month
     [ ] total sales for the entire month
     [x] running total in entire year for the entire month
@@ -33,10 +33,10 @@ Q3. What daily sales number does this DAX measure formula calculate? CALCULATE(S
 
 Q4. You are creating a report in Power Bl Desktop and want to restrict the data to records where Country="Canada". To accomplish this, what do you need to create?
 
-    [x] a directive
+    [ ] a directive
     [ ] a custom column
     [ ] an indexed column
-    [ ] a parameter
+    [x] a parameter
 
 Q5. What is the primary benefit of using visualizations such as line charts, bar charts, and column charts?
 
